@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    
+
+}
+.navbar a{
+    padding: 10px 10px;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+}
+.dropdown:hover .dropdown-container{
+    display: block;
+}
+.dropdown-container{
+    position: absolute;
+    display: none;
+    background-color: aqua;
+}
+.dropdown a{
+    padding: 10px 10px;
+}
